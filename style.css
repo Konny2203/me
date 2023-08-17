@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 14px;
+    padding: 5px;
+    background-color: rgb(241, 234, 234);
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+p {
+    background-color: white;
+    padding: 5px;
+    max-width: 1000;width: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+table{
+    border-collapse: collapse;
+    width: 1010px;
+    background-color: white;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    
+    
+}
+td, th{
+    padding: 10px 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+th{
+    background-color: lightcoral;
+}
+footer{
+background-color: brown;
+color: white;
+padding: 5px;
+text-align: center;
+width: 1000px;
+height: 20px;
+margin-left: 50px;
+ margin-right: 50px;
+
+}
+h1{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: white;
+    max-width: 1000;width: 1000px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+ul a{
+color: white;
+text-decoration: none;
+padding: 5px;
+    max-width: 1000;width: 1000px;
+    
+   
+}
+li {
+display: inline-block;
+ height:20px;
+ width: 150px;
+ padding: 10px;
+ text-align: center;
+ border-left: 1px solid brown;
+ border-right: 1px solid brown;
+ background-color: rgb(161, 58, 58);
+}
+li:hover {
+    background-color: lightcoral;
+    border-style: none;
+    
+}
+h2{
+    color: brown; 
+    background-color: white;
+    width: 1000px;
+height: 20px;
+margin-left: 50px;
+    margin-right: 50px;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 100px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 4px;box-shadow: inset 2px 2px 2px brown;
+
+    }
+    textarea{
+    height: 200px;
+    background-color: white;
+    padding: 5px 4px;
+    }
+    button:active{
+    background-color: lightcoral;
+    color:white;
+    border-radius: 8px;
+    }
